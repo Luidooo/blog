@@ -1,10 +1,24 @@
 ---
-title: Nix?
+title: Os fundamentos de Nix
 description: Contextualizando o mundo nix...
 ---
 
-## O que é Nix?
-  Nix é muita coisa. NixOS é um sistema operacional que é declarado utilizando a linguagem Nix que usa o gerenciador de pacotes Nix para instalar os pacotes do Nixpkgs...bom, isso não diz muito né?
+Antes de falar o que é o NixOS, ou de forma mais abragente, o que é Nix, acho bom contextualizarmos o que o ambiente Nix, resolve.
+
+É do cotidiano de um desenvolvedor instalar novos pacotes localmente para testar, quando estamos implementando algo novo, procuramos solucões já feitas e ferramentas já conhecidas. 
+Mas e quando o pacote que você instalou não era o desejado? Você tem que remeove-lo.
+E quando os pacotes conflita com pacotes pré instalados? Debugar isso é um pesadelo.
+
+Essa forma de lidar com pacotes é o que chamamos de ´iterativa´, um após o outro, sem saber quais serão todos os pacotes que o sistema terá, isso nós obriga a ligar com conflitos de forma iterativa, que para reprodutibilidade, é um pesadelo.
+
+
+
+
+
+
+
+
+
 
 ### Linguagem
   Nix é uma linguagem de programação, dinamicamente tipada, pura, com lazy evaluation e funcional.
@@ -167,5 +181,6 @@ Exemplo concreto de um laptop Intel UEFI com NVMe + swap:
   }
 ```
 
-
+Ta, nix tem tudo isso, já entendi que é um sistema operacional declarado, mas qual a importancia disso?
+Imagine 
 
